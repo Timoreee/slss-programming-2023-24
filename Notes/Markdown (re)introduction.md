@@ -40,7 +40,7 @@ ________________________________________________________________________
 [Hitman]([https://rentahitman.com/)/from](https://rentahitman.com/)/from)](https://rentahitman.com/)/from](https://rentahitman.com/)/from)) chatgpt/  
 
 # Sonic
-!(Cute Sonic)[https://i1.sndcdn.com/artworks-7yWcu9G3xv0jmQPJ-Zk0R5w-t500x500.jpg]
+![Cute Sonic][https://i1.sndcdn.com/artworks-7yWcu9G3xv0jmQPJ-Zk0R5w-t500x500.jpg]
 ________________________________________________________________________  
 
 # Blockquotes  
