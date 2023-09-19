@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "87a310d08dea01d9",
+        "id": "186ee97d147cacb7",
         "type": "tabs",
         "children": [
           {
-            "id": "3bde1ae67b908a9a",
+            "id": "08604277a587233e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Natural Language Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Natural Language Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "().md"
+                "file": "Natural Language Processing.md"
               }
             }
           }
@@ -140,6 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a862e9c21b67bf21",
-  "lastOpenFiles": []
+  "active": "08604277a587233e",
+  "lastOpenFiles": [
+    "Markdown (re)introduction.md",
+    "Headers.md",
+    "Natural Language Processing.md",
+    "().md"
+  ]
 }
