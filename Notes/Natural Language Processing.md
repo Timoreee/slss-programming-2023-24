@@ -99,4 +99,46 @@ Check if it works *syntatically*, in other words, we check to see if it BREAKS
 Check if it works *semantically*, in other words, we ask does our algorithm actually solve the problem
 
 ## 4. Share our work
-Once it solves the problem, ship your code to whoever will use it.
+Once it solves the problem, ship your code to whoever will use it
+
+
+# Lists
+a list in python is a collection of items 
+We can store *different* values in a list
+**Order Matters** in a list
+# Creating A list
+to make a list, we use brackets \[\] to surround our list
+We separate out the items using ,
+
+```python
+some_list - ["Matt", "Ethan", "Johanne"]
+```
+
+# Access Elements in a List
+We can grab things from lists using the bracket notation "Tim", I would do the following
+
+```python
+some_list[1].      # "Ethan"
+some_list[2].      # "Johanne"
+some_list[-1].     # "Johanne"
+some_list[-2]      # "Ethan"
+```
+
+Inside the brackets we say the *index* of the value we want
+Python uses *0-index* counting, which means we start counting at 0
+
+# Modules
+Modules are bits of code that we can use in Python
+These bits of code aren't automatically included, so we need to import them into our code
+
+# Import
+The  `import` keyword loads the module into our file `import` should be at the **top of the file** under the **header**
+# The `time` module
+Time allows us to play around with anything relating to `time`
+
+```python
+import time
+
+# Pause code for 1 second
+time.sleep[1]
+```

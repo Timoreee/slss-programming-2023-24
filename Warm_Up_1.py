@@ -1,5 +1,6 @@
 # Warm up chat bot
 # Sept 25 2023
-# Timothy Cai
+# Author: Timothy Cai
 
-print("BEEP BOOP")
+Robot_Sounds = ("BEEP BOOP")
+print(Robot_Sounds)
