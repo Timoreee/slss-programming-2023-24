@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0708916a2adfd4a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conditionals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10900a7410670d94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Errors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09cba7b54a8f83ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,11 +183,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08604277a587233e",
+  "active": "09cba7b54a8f83ad",
   "lastOpenFiles": [
-    "Markdown (re)introduction.md",
+    "Errors.md",
     "Natural Language Processing.md",
+    "README.md",
+    "Warm_Up_1.py",
+    "input_and_output.py",
+    "Food_suggestion_bot.py",
+    "Markdown (re)introduction.md",
+    "Conditionals.md",
+    "Strings.md",
     "Headers.md",
+    "Boolean.md",
+    "input(\"Correct choice my man, we all know why hes the hottest?\").md",
+    "Untitled",
     "chatbot.py",
     "().md"
   ]

@@ -82,7 +82,21 @@ fave_food = input("What's your favorite food?")
 
 print(f"Oooooooo, {fave_food} sounds good!"")
 ```
+# String Methods
 
+[[Methods]] are functions that we can use on [[objects]].
+
+String methods allow us to modify strings.
+
+Say for example, we want ot make all od the characters of a string lowercase
+
+```python
+mr_ubial_yelling = "YOU SHOULD PUSH YOUR CHAIRS IN"
+
+print(mr_ubial_yelling.lower()
+
+```
+```
 # [[Design]]
 *The Design Process* is the steps that we take when we create a solution to a problem
 
@@ -113,7 +127,7 @@ We separate out the items using ,
 ```python
 some_list - ["Matt", "Ethan", "Johanne"]
 ```
-
+The lower.() method takes a string and converts all uppercase letters into lower case.
 # Access Elements in a List
 We can grab things from lists using the bracket notation "Tim", I would do the following
 
@@ -131,6 +145,10 @@ Python uses *0-index* counting, which means we start counting at 0
 Modules are bits of code that we can use in Python
 These bits of code aren't automatically included, so we need to import them into our code
 
+# Boolean
+
+# Conditionals
+
 # Import
 The  `import` keyword loads the module into our file `import` should be at the **top of the file** under the **header**
 # The `time` module
@@ -141,4 +159,164 @@ import time
 
 # Pause code for 1 second
 time.sleep[1]
+```
+
+# Iteration
+![Loop from Giphy](https://media1.giphy.com/media/6HsjDOBPwY1eIS6kE0/giphy.gif?cid=ecf05e47u4wu0hvl9m1juhmryx7t9tw7httc7qnwe9k8shyg&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
+  
+
+We can repeat our instructions using *_iteration_* or *_loops_*.
+
+  
+
+More detailed information can be found [here](https://runestone.academy/ns/books/published/thinkcspy/Strings/TraversalandtheforLoopByItem.html). 
+
+## Iterating over a [[List]]
+
+  
+
+Say, for example, we want to repeat instructions for all items inside of a list. Python has a way that we can do this.
+
+  
+
+```python
+
+for <item> in <list>:
+
+<code block>
+
+```
+
+  
+
+We can use the rules above to iterate over a list, that is, repeat the code block for every `item` in the list.
+
+  
+
+Think of it this way. We have a list of groceries below. As you can see, Mr. Ubial has his priorities straight.
+
+  
+
+```python
+
+groceries = ["hot wheels", "ice cream", "video games"]
+
+```
+
+  
+
+What if you wanted to print out a formatted version of the list, something useful like putting a bullet in front of the item and putting everything on a new line.
+
+  
+
+We could do something like this:
+
+  
+
+```python
+
+for item in groceries:
+
+print(f"* {item}")
+
+print("---")
+
+```
+
+  
+
+Which would output this:
+
+  
+
+```console
+
+* hotwheels
+
+---
+
+* ice cream
+
+---
+
+* video games
+
+---
+
+```
+
+  
+
+If we imagine that we're looping through every item in the list, the `<item>` name represents that individual item.
+
+## Search - A Practical Example
+
+  
+
+We can implement a basic type of search algorithm using loops, one is called [linear search](https://en.wikipedia.org/wiki/Linear_search).
+
+  
+
+It goes something like this:
+
+  
+
+```pseudocodeish
+
+for <item> in <list>:
+
+if <item> == <item you want to find>:
+
+<do something with the item>
+
+```
+
+  
+
+Here's a practical example. Let's say that we're looking to see if Jasmine Soto is in the list. We can do this:
+
+  
+
+```python
+
+names = ['Elizabeth Singleton', 'Raymond Mitchell', 'Steven Murphy', 'Daniel Terry', 'Glenn Fisher', 'Jasmine Soto', 'Deborah Hicks', 'Beverly Ryan', 'Jason Smith', 'Jason Washington']
+
+  
+
+for name in names:
+
+if name == "Jasmine Soto":
+
+print("We found her!")
+
+```
+
+We can use string methods to help solve [Errors#Semantic Errors[semantic errors]]
+# .lower()
+
+the `.lower()` converts all uppercase letters into loercase
+# .upper()
+
+The `.upper()` method uppercases all letters
+
+# .strip(chars)
+
+The `.strip()` method removes characters from both the beginning and end of the string
+
+```python
+user_feeling = input("How are you feeling today?")
+
+# "good!" "good." "Good!" "Goooooood!!!!!!"
+if user_feeling.lower.strip("!.,") == "good":
+	print("That's great!"
+```
+
+## .split(str)
+The `.split()` method splits a string into a list, separating the string based on the characters you give it.
+
+```python
+grocery_string = "eggs milk cheese hotwheels"
+
+grocery_list = grocery_str.split("")
 ```
