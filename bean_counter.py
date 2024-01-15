@@ -1,5 +1,5 @@
 # Counts beans
-# Auor: Tim
+# Author: Tim
 # Jan 9
 
 # Version 01
@@ -10,45 +10,31 @@
 # Report on the percemtage of all green jellybeans
 
 from PIL import Image
+red_ball_center = './Images/Red Ball.jpeg'
 
-import colour_helper
+def find_ball_center(red_ball_center):
+    # Read the image
+    image = Image.open(red_ball_center)
+    # Convert the image into RGB
+    rgb_image = image.convert('RGB')
+    # Set the RGB values for red color
+    red_color = (255, 0, 0)
+    # Find red pixels
+    red_pixels = []
+    width, height = image.size
+    for x in range(width):
+        for y in range(height):
+            pixel = rgb_image.getpixel((x, y))
+            if all(val >= 200 for val in pixel) and pixel[0] == 255:  # Red color with some tolerance
+                red_pixels.append((x, y))
+    # Find the center
+    if red_pixels:
+        center_x = sum(x for x, _ in red_pixels) // len(red_pixels)
+        center_y = sum(y for _, y in red_pixels) // len(red_pixels)
+        return center_x, center_y
+    else:
+        return None
+    
+center = find_ball_center(red_ball_center)
 
-GREEN_PIXEL = (0, 150, 0)
-
-jelly_bean_img = Image.open("./Images/Jelly Beans.jpg")
-red_pixels = []
-green_pixels = []
-
-# Visit every pixel in the image
-for y in range (jelly_bean_img.height):
-    for x in range (jelly_bean_img.width):
-        current_pixel = jelly_bean_img.getpixel((x, y))
-
-        # If that pixel is red store the location
-        if colour_helper.pixel_to_string(current_pixel) == "red":
-            red_pixels.append((x, y))
-        elif colour_helper.pixel_to_string(current_pixel) == "green":
-            green_pixels.append((x,y))
-
-# Create a map of found pixels
-# Count every red pixel in the list
-# Divide that number by the total pixels in the image
-
-red_percentage = len(green_pixels) / (jelly_bean_img.width * jelly_bean_img.height) 
-
-# Create a map of all red pixels
-# Create a new image that is the same size as the original
-original_size = (jelly_bean_img.width, jelly_bean_img.height)
-green_pixel_map = Image.new("RGB", original_size)
-
-# For every pizel in red_pixels, place a red pixel on the new image
-for pixel_loc in red_pixels:
-    green_pixel_map.putpixel(pixel_loc, GREEN_PIXEL)
-
-green_pixel_map.save("green_pixel_map.jpg")
-
-green_pixel_map.close()       
-jelly_bean_img.close()
-
-        # Display Report
-print(f"Red Jelly Beans: {round(red_percentage, 2)}%")
+print(f"The center of the red ball is: ({center[0]}, {center[1]})")

@@ -44,6 +44,88 @@
             }
           },
           {
+            "id": "dd5c4875c2620e6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bd9fff4741e027b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb4369d1b9a80c4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b37005f4f0efddb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ac5c4b6f5e7b6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4d0e705797b9fd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5541619ff92b2c9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "09cba7b54a8f83ad",
             "type": "leaf",
             "state": {
@@ -54,9 +136,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c457a0d89b55775d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -122,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Natural Language Processing.md",
+                "file": "Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Natural Language Processing.md",
+                "file": "Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +252,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Natural Language Processing.md"
+                "file": "Lists.md"
               }
             }
           }
@@ -183,22 +273,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09cba7b54a8f83ad",
+  "active": "c5541619ff92b2c9",
   "lastOpenFiles": [
-    "Errors.md",
-    "Natural Language Processing.md",
+    "0",
     "README.md",
-    "Warm_Up_1.py",
-    "input_and_output.py",
-    "Food_suggestion_bot.py",
+    "Lists.md",
+    "quiz_2.md",
+    "quiz_1.md",
+    "Quiz 1 - TimothyCai.md",
+    "Quiz 1 - Template.md",
+    "Numbers.md",
+    "Natural Language Processing.md",
     "Markdown (re)introduction.md",
-    "Conditionals.md",
-    "Strings.md",
     "Headers.md",
     "Boolean.md",
-    "input(\"Correct choice my man, we all know why hes the hottest?\").md",
+    "Conditionals.md",
+    "Functions.md",
+    "Recursions.md",
+    "Recommendation Systems.md",
+    "data_example.csv",
+    "data_exercise.py",
+    "Type.md",
+    "Errors.md",
+    "data.csv",
+    "olympic_judging.py",
+    "mcdolands.py",
+    "Bruh.py",
+    "age_in_2049.py",
+    "chip_rater.py",
     "Untitled",
-    "chatbot.py",
+    "Pumpkin_Drawing.py",
+    "Strings.md",
+    "input(\"Correct choice my man, we all know why hes the hottest?\").md",
     "().md"
   ]
 }
